@@ -8,6 +8,7 @@ function prepararBotones(){
 
 function mostrar(t){
   return function(){
-    console.log(t);
+    alert("BOTON #" + t);
   };
 };
+prepararBotones();
