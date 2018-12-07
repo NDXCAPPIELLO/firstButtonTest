@@ -6,8 +6,8 @@ function prepararBotones(){
   };
 };
 
-function mostrar(texto){
+function mostrar(t){
   return function(){
-    console.log(texto);
+    console.log(t);
   };
 };
