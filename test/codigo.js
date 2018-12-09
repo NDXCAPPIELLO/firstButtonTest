@@ -12,3 +12,9 @@ function mostrar(t){
   };
 };
 prepararBotones();
+
+
+
+$( function() {
+$( "#accordion" ).accordion();
+  } );
